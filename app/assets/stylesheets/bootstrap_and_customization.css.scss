@@ -1,0 +1,34 @@
+body {
+	background-color: #ecf0f1;
+}
+
+$navbar-default-bg: #9b59b6;
+$navbar-default-link-color: #fff;
+$font-family-sans-serif:  'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-default-brand-color: #ffffff;
+$btn-default-color: #fff;
+$btn-default-bg: #9b59b6;
+$navbar-default-toggle-icon-bar-bg: #fff;
+$navbar-default-toggle-border-color: 0;
+$navbar-default-toggle-hover-bg: #804399;
+p {font-size: 20px}
+body { padding-top: 70px; }
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: 300;
+     font-size: 20px;
+}
+
+.nav-links-center {
+	margin-left: 30%;
+}
