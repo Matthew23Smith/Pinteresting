@@ -11,6 +11,7 @@ $btn-default-bg: #9b59b6;
 $navbar-default-toggle-icon-bar-bg: #fff;
 $navbar-default-toggle-border-color: 0;
 $navbar-default-toggle-hover-bg: #804399;
+$input-border-focus: #9b59b6;
 p {font-size: 20px}
 body { padding-top: 70px; }
 
@@ -19,6 +20,10 @@ body { padding-top: 70px; }
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+.centered{
+
+	margin: 0 auto;
+}
 
 .center {
      text-align: center;
